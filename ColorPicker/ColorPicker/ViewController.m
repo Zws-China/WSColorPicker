@@ -34,7 +34,6 @@
     
     ws.currentColorBlock = ^(UIColor *color){
         
-        NSLog(@"color");
         label.textColor = color;
         view.backgroundColor = color;
         
